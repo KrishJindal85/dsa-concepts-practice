@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+int n;
+cin>>n;
+
+int i=1;
+while(i<=n){
+
+if (i==n){
+    cout<<i;
+
+}
+else{
+    cout<<i << ",";
+
+}
+
+i=i+1;
+
+
+    //niche wala code use krke ye dikat thi b last number n ke baad bhi comma aa rha tha.
+
+  /*  cout<<i <<",";
+    i=i+1;*/
+}
+
+
+
+return 0;
+
+
+
+
+
+    
+}
